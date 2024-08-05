@@ -11,5 +11,56 @@
     <h1>Aquí iría el título de la página</h1>
     <p>Esto es un párrafo</p>
     <p>Esto es un segundo párrafo</p>
+
+    <form action="/submit" method="post">
+        <!-- Pregunta 1 -->
+        <label for="pregunta1">1. ¿Cuál es tu color favorito?</label><br>
+        <input type="radio" id="color1" name="color" value="rojo">
+        <label for="color1">Rojo</label><br>
+        <input type="radio" id="color2" name="color" value="azul">
+        <label for="color2">Azul</label><br>
+        <input type="radio" id="color3" name="color" value="verde">
+        <label for="color3">Verde</label><br>
+        <input type="radio" id="color4" name="color" value="amarillo">
+        <label for="color4">Amarillo</label><br><br>
+        
+        <!-- Pregunta 2 -->
+        <label for="pregunta2">2. ¿Qué tipo de música prefieres?</label><br>
+        <input type="checkbox" id="musica1" name="musica" value="rock">
+        <label for="musica1">Rock</label><br>
+        <input type="checkbox" id="musica2" name="musica" value="pop">
+        <label for="musica2">Pop</label><br>
+        <input type="checkbox" id="musica3" name="musica" value="jazz">
+        <label for="musica3">Jazz</label><br>
+        <input type="checkbox" id="musica4" name="musica" value="clásica">
+        <label for="musica4">Clásica</label><br><br>
+
+        <!-- Pregunta 3 -->
+        <label for="pregunta3">3. ¿Qué deporte te gusta practicar?</label><br>
+        <select id="deporte" name="deporte">
+            <option value="futbol">Fútbol</option>
+            <option value="baloncesto">Baloncesto</option>
+            <option value="tenis">Tenis</option>
+            <option value="natacion">Natación</option>
+        </select><br><br>
+
+        <!-- Pregunta 4 -->
+        <label for="pregunta4">4. ¿Con qué frecuencia lees libros?</label><br>
+        <input type="radio" id="lectura1" name="lectura" value="diario">
+        <label for="lectura1">Diario</label><br>
+        <input type="radio" id="lectura2" name="lectura" value="semanal">
+        <label for="lectura2">Semanal</label><br>
+        <input type="radio" id="lectura3" name="lectura" value="mensual">
+        <label for="lectura3">Mensual</label><br>
+        <input type="radio" id="lectura4" name="lectura" value="raramente">
+        <label for="lectura4">Raramente</label><br><br>
+
+        <!-- Pregunta 5 -->
+        <label for="pregunta5">5. ¿Cuál es tu comida favorita?</label><br>
+        <input type="text" id="comida" name="comida"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    
 </body>
 </html>
